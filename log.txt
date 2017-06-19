@@ -1,0 +1,58 @@
+
+----------------------------------
+Artist Name: Hinder
+Track Name: Lips Of An Angel
+Preview URL: null
+Album Name: Extreme Behavior
+----------------------------------
+
+----------------------------------
+Movie Title: Doctor Strange
+Release Year: 2016
+IMDB Rating: 7.6
+Produced In: USA
+Language: English
+Plot: While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.
+Actors: Benedict Cumberbatch, Chiwetel Ejiofor, Rachel McAdams, Benedict Wong
+Movie Website: http://marvel.com/doctorstrange
+----------------------------------
+
+----------------------------------
+Tweet: Node node node node node.
+Created: Sun Jun 18 22:31:59 +0000 2017
+----------------------------------
+
+----------------------------------
+Tweet: Spending my weekend doing coding homework!
+Created: Sun Jun 18 22:27:43 +0000 2017
+----------------------------------
+
+----------------------------------
+Tweet: Code all day, every day.
+Created: Sun Jun 18 22:26:03 +0000 2017
+----------------------------------
+
+----------------------------------
+Tweet: All coding and no play makes Adam a better programmer.
+Created: Sun Jun 18 22:26:59 +0000 2017
+----------------------------------
+
+----------------------------------
+Tweet: I love coding!
+Created: Thu Jun 15 20:55:13 +0000 2017
+----------------------------------
+
+----------------------------------
+Tweet: All I do is code.
+Created: Thu Jun 15 20:57:14 +0000 2017
+----------------------------------
+
+----------------------------------
+Tweet: APIs suck!
+Created: Thu Jun 15 20:54:56 +0000 2017
+----------------------------------
+
+----------------------------------
+Tweet: Javascript is awesome!
+Created: Thu Jun 15 20:53:41 +0000 2017
+----------------------------------

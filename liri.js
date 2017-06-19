@@ -78,6 +78,23 @@ client.get('statuses/user_timeline', params, function(error, tweets, response) {
 		    console.log("Tweet: " + tweets[i].text);
 		    console.log("Created: " + tweets[i].created_at);
         console.log("----------------------------------");
+
+        // append to log.txt
+        fs.appendFile("log.txt", 
+          "\n" +   
+          "----------------------------------\n" + 
+          "Tweet: " + tweets[i].text + "\n" +
+          "Created: " + tweets[i].created_at + "\n" +
+          "----------------------------------\n",
+        function(err) {
+          if (err) {
+            console.log(err);
+          }
+
+        });//end fs append
+
+
+
 	}
 });
 
@@ -190,7 +207,28 @@ function spotifySearch(){
   }   
   console.log("Album Name: " + data.tracks.items[0].album.name); // album name
   console.log("----------------------------------");
-  });
+
+  // append to log.txt
+  fs.appendFile("log.txt", 
+  "\n" +   
+  "----------------------------------\n" + 
+  "Artist Name: " + data.tracks.items[0].album.artists[0].name + "\n" +
+  "Track Name: " + data.tracks.items[0].name + "\n" +
+  "Preview URL: " + data.tracks.items[0].preview_url + "\n" +
+  "Album Name: " + data.tracks.items[0].album.name + "\n" +
+  "----------------------------------\n",
+
+  function(err) {
+
+  if (err) {
+    console.log(err);
+  }
+
+  });//end fs append
+
+
+  }); //end spotify.search
+  
 
 }//end spotifySearch
 
@@ -222,8 +260,30 @@ function movieSearch(){
       console.log("Movie Website: " + JSON.parse(body).Website);
       console.log("----------------------------------");
 
-  }
-});
+      // append to log.txt
+      fs.appendFile("log.txt", 
+      "\n" +   
+      "----------------------------------\n" + 
+      "Movie Title: " + JSON.parse(body).Title + "\n" +
+      "Release Year: " + JSON.parse(body).Year + "\n" +
+      "IMDB Rating: " + JSON.parse(body).imdbRating + "\n" +
+      "Produced In: " + JSON.parse(body).Country + "\n" +
+      "Language: " + JSON.parse(body).Language + "\n" +
+      "Plot: " + JSON.parse(body).Plot + "\n" +
+      "Actors: " + JSON.parse(body).Actors + "\n" +
+      "Movie Website: " + JSON.parse(body).Website + "\n" +
+      "----------------------------------\n",
+
+      function(err) {
+
+        if (err) {
+          console.log(err);
+        }
+      });//end fs append
+
+    }
+
+  });
 
 }// end movieSearch
 
